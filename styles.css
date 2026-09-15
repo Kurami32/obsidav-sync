@@ -1,0 +1,51 @@
+.setting-item input[type=range]::-webkit-slider-thumb {
+    background: var(--interactive-accent);
+}
+
+.setting-item input[type=range]::-webkit-slider-thumb:hover {
+    background: var(--interactive-accent-hover);
+}
+
+.plugin-title {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.25em;
+}
+
+.setting-warning-description {
+    color: var(--text-warning);
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+    margin-top: 0.5em;
+    margin-right: 5em;
+}
+.setting-warning-description svg {
+    width: 1.125em;
+    height: 1.125em;
+    flex-shrink: 0;
+}
+
+/* Ensure description can handle line breaks */
+.setting-item .setting-item-description {
+    white-space: pre-wrap;
+}
+
+.sync-status {
+    font-weight: bold;
+    margin-bottom: 0.625em;
+}
+.sync-last, .sync-changes {
+    margin-bottom: 0.3125em;
+    color: var(--text-muted);
+}
+.sync-error {
+    color: var(--text-error);
+    margin-top: 0.625em;
+    word-break: break-word;
+}
+
+.status-bar-item.mod-clickable svg {
+    margin-right: 0.25em;
+}

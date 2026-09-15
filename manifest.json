@@ -1,0 +1,11 @@
+
+{
+  "id": "obsidav-sync",
+  "name": "ObsiDAV Sync",
+  "version": "0.1.0",
+  "minAppVersion": "0.15.0",
+  "description": "Another plugin to sync your Obsidian vault! This is a minimal webdav sync plugin",
+  "author": "Kurami32",
+  "authorUrl": "https://github.com/Kurami32",
+  "isDesktopOnly": false
+}
